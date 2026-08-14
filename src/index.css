@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fff9f7;
+  --color-blush: #fce8ee;
+  --color-pink: #f7b7c8;
+  --color-rose: #b85c78;
+  --color-plum: #3b2f35;
+  --color-sage: #a8b8a0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fff9f7;
+  color: #3b2f35;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f7b7c8;
+  color: #3b2f35;
+}
