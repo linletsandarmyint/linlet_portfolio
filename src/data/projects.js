@@ -21,7 +21,7 @@ export const projects = [
     ],
 
     github: "github.com/linletsandarmyint/MBTI_BASED_JOB_MATCHING",
-    liveDemo: "https://mbti-based-job-matching.onrender.com",
+    liveDemo: "https://mbti-based-job-matching.vercel.app",
 
     featured: true,
   },

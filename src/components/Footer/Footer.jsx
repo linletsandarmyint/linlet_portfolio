@@ -11,7 +11,7 @@ function Footer() {
           href="#home"
           className="text-xl font-extrabold tracking-tight text-plum"
         >
-          LLSDM<span className="text-rose">.</span>
+          lls<span className="text-rose">dm</span>
         </a>
 
         {/* Copyright */}
