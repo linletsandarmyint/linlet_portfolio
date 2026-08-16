@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowRight, Sparkles } from "lucide-react";
+import { SiReact } from "react-icons/si";
 
 function Hero() {
   return (
@@ -70,10 +71,10 @@ function Hero() {
           </div>
 
           {/* React */}
-          <div className="absolute left-0 top-16 rounded-xl bg-white/90 px-4 py-2.5 text-xs font-bold text-plum shadow-lg backdrop-blur">
-            ⚛ React
+          <div className="absolute left-0 top-16 flex items-center gap-2 rounded-xl bg-white/90 px-4 py-2.5 text-xs font-bold text-plum shadow-lg backdrop-blur">
+            <SiReact size={18} color="black" />
+            React
           </div>
-
           {/* Spring Boot */}
           <div className="absolute right-0 top-1/2 rounded-xl bg-white/90 px-4 py-2.5 text-xs font-bold text-plum shadow-lg backdrop-blur">
             ◆ Spring Boot
