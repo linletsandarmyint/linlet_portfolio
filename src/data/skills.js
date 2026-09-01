@@ -1,3 +1,4 @@
+
 export const skillCategories = [
   {
     title: "Frontend",
@@ -5,6 +6,10 @@ export const skillCategories = [
       {
         name: "React",
         icon: "react",
+      },
+      {
+        name: "TypeScript",
+        icon: "typescript",
       },
       {
         name: "JavaScript",
@@ -44,6 +49,14 @@ export const skillCategories = [
         name: "Spring Boot",
         icon: "spring",
       },
+      {
+        name: "PHP",
+        icon: "php",
+      },
+      {
+        name: "C++",
+        icon: "cpp",
+      },
     ],
   },
 
@@ -62,11 +75,15 @@ export const skillCategories = [
         name: "PostgreSQL",
         icon: "postgresql",
       },
+      {
+        name: "Supabase",
+        icon: "supabase",
+      },
     ],
   },
 
   {
-    title: "Tools & Other",
+    title: "Tools & Development",
     skills: [
       {
         name: "Git",
@@ -86,4 +103,19 @@ export const skillCategories = [
       },
     ],
   },
+
+  {
+    title: "Deployment & Cloud",
+    skills: [
+      {
+        name: "Vercel",
+        icon: "vercel",
+      },
+      {
+        name: "Render",
+        icon: "render",
+      },
+    ],
+  },
 ];
+

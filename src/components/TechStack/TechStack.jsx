@@ -15,6 +15,12 @@ import {
   SiGit,
   SiGithub,
   SiPostman,
+  SiTypescript,
+  SiPhp,
+  SiCplusplus,
+  SiSupabase,
+  SiVercel,
+  SiRender,
 } from "react-icons/si";
 
 import { skillCategories } from "../../data/skills";
@@ -72,7 +78,18 @@ const iconMap = {
     icon: SiSpringboot,
     color: "#6DB33F",
   },
-
+  php: {
+    icon: SiPhp,
+    color: "#777BB4",
+  },
+  typescript: {
+    icon: SiTypescript,
+    color: "#3178C6",
+  },
+  cpp: {
+    icon: SiCplusplus,
+    color: "#00599C",
+  },
   mongodb: {
     icon: SiMongodb,
     color: "#47A248",
@@ -92,7 +109,10 @@ const iconMap = {
     icon: SiGit,
     color: "#F05032",
   },
-
+  supabase: {
+    icon: SiSupabase,
+    color: "#3ECF8E",
+  },
   github: {
     icon: SiGithub,
     color: "#181717",
@@ -102,7 +122,15 @@ const iconMap = {
     icon: SiPostman,
     color: "#FF6C37",
   },
+  vercel: {
+    icon: SiVercel,
+    color: "#000000",
+  },
 
+  render: {
+    icon: SiRender,
+    color: "#46E3B7",
+  },
   /*
    * AI doesn't have one universal technology logo.
    * Keep Lucide Sparkles for now.

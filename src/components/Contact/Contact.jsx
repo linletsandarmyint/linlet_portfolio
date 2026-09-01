@@ -214,7 +214,7 @@ function Contact() {
           </p>
 
           <a
-            href="/resume.pdf"
+            href="/linletsandarmyint_CV.pdf"
             download
             className="group mt-3 inline-flex items-center gap-2 text-lg font-extrabold text-rose"
           >

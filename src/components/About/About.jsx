@@ -102,7 +102,7 @@ function About() {
             {/* CV link */}
             <div className="mt-8">
               <a
-                href="/resume.pdf"
+                href="/linletsandarmyint_CV.pdf"
                 download
                 className="group inline-flex items-center gap-3 rounded-xl bg-pink px-6 py-3.5 text-sm font-bold text-plum transition-all duration-300 hover:-translate-y-1 hover:bg-rose hover:text-white"
               >

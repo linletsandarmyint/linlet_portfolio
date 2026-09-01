@@ -20,7 +20,7 @@ export const projects = [
       "Admin management system",
     ],
 
-    github: "github.com/linletsandarmyint/MBTI_BASED_JOB_MATCHING",
+    github: "https://github.com/linletsandarmyint/MBTI_BASED_JOB_MATCHING",
     liveDemo: "https://mbti-based-job-matching.vercel.app",
 
     featured: true,
@@ -28,54 +28,36 @@ export const projects = [
 
   {
     id: 2,
-    title: "Course Management System",
+    title: "Nihongo Journey",
 
-    category: "Full-Stack Application",
+    category: "Frontend Application",
 
     description:
-      "A web-based management system designed to manage courses, users, departments, positions, and administrative operations.",
+      "A Japanese learning and JLPT N2 study planner designed to help learners follow a structured daily study journey, track completed tasks, maintain study streaks, and stay motivated.",
 
-    image: "/projects/course-system.jpg",
+    image: "/projects/nihongo.jpg",
 
-    technologies: ["React", "Spring Boot", "Java", "MySQL"],
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "LocalStorage",
+    ],
 
     highlights: [
-      "REST API architecture",
-      "Authentication and authorization",
-      "Course management",
-      "Administrative features",
-      "Database integration",
+      "56-day Japanese study plan",
+      "Daily Kanji, Vocabulary, Grammar, Reading and Listening tasks",
+      "Task completion tracking",
+      "Progress dashboard and statistics",
+      "Study streak and achievements",
+      "Daily mission and next-day learning flow",
+      "Responsive Japanese learning interface",
     ],
 
     github: "#",
-    liveDemo: "#",
-
-    featured: true,
-  },
-
-  {
-    id: 3,
-    title: "Digital Marketplace",
-
-    category: "E-Commerce",
-
-    description:
-      "A digital marketplace application designed to provide product browsing, shopping, cart management, and user-focused e-commerce functionality.",
-
-    image: "/projects/marketplace.jpg",
-
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-
-    highlights: [
-      "Product management",
-      "Shopping cart",
-      "User authentication",
-      "REST API",
-      "Responsive interface",
-    ],
-
-    github: "#",
-    liveDemo: "#",
+    liveDemo: "https://nihongo-journey-n2.vercel.app/",
 
     featured: true,
   },

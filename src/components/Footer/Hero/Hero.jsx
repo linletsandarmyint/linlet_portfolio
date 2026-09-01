@@ -36,7 +36,7 @@ function Hero() {
           {/* Buttons */}
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row lg:justify-start">
             <a
-              href="/resume.pdf"
+              href="/linletsandarmyint_CV.pdf"
               download
               className="inline-flex items-center justify-center gap-3 rounded-xl bg-pink px-6 py-3.5 font-bold text-plum transition-all duration-300 hover:-translate-y-1 hover:bg-rose hover:text-white"
             >
