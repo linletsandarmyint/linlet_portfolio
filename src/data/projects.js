@@ -21,6 +21,7 @@ export const projects = [
     ],
 
     github: "https://github.com/linletsandarmyint/MBTI_BASED_JOB_MATCHING",
+
     liveDemo: "https://mbti-based-job-matching.vercel.app",
 
     featured: true,
@@ -30,10 +31,10 @@ export const projects = [
     id: 2,
     title: "Nihongo Journey",
 
-    category: "Frontend Application",
+    category: "Full-Stack Web Application",
 
     description:
-      "A Japanese learning and JLPT N2 study planner designed to help learners follow a structured daily study journey, track completed tasks, maintain study streaks, and stay motivated.",
+      "A Japanese learning and JLPT N2 study planner designed to help learners follow a structured 56-day study journey, track completed tasks, monitor progress and study streaks, and stay motivated throughout their learning journey.",
 
     image: "/projects/nihongo.jpg",
 
@@ -43,20 +44,25 @@ export const projects = [
       "Vite",
       "Tailwind CSS",
       "React Router",
+      "Supabase",
       "LocalStorage",
     ],
 
     highlights: [
-      "56-day Japanese study plan",
+      "56-day JLPT N2 study plan",
       "Daily Kanji, Vocabulary, Grammar, Reading and Listening tasks",
+      "Supabase email authentication",
       "Task completion tracking",
       "Progress dashboard and statistics",
       "Study streak and achievements",
       "Daily mission and next-day learning flow",
+      "Kanji Master learning section",
       "Responsive Japanese learning interface",
+      "Deployed with Vercel",
     ],
 
-    github: "#",
+    github: "https://github.com/linletsandarmyint/nihongo-journey",
+
     liveDemo: "https://nihongo-journey-n2.vercel.app/",
 
     featured: true,
