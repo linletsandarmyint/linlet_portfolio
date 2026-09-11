@@ -30,41 +30,40 @@ export const projects = [
   {
     id: 2,
     title: "Nihongo Journey",
-
-    category: "Full-Stack Web Application",
-
+    category: "Full-Stack + AI",
     description:
-      "A Japanese learning and JLPT N2 study planner designed to help learners follow a structured 56-day study journey, track completed tasks, monitor progress and study streaks, and stay motivated throughout their learning journey.",
-
+      "A full-stack Japanese learning platform with personalized JLPT study planning, progress tracking, Kanji learning, and Sakura AI — an AI-powered Japanese learning assistant designed to support learners from JLPT N5 to N1.",
     image: "/projects/nihongo.jpg",
-
     technologies: [
       "React",
       "TypeScript",
       "Vite",
       "Tailwind CSS",
       "React Router",
+      "Node.js",
+      "Express",
       "Supabase",
-      "LocalStorage",
+      "OpenRouter",
+      "AI",
     ],
-
     highlights: [
-      "56-day JLPT N2 study plan",
+      "56-day structured JLPT N2 study journey",
       "Daily Kanji, Vocabulary, Grammar, Reading and Listening tasks",
-      "Supabase email authentication",
-      "Task completion tracking",
-      "Progress dashboard and statistics",
-      "Study streak and achievements",
+      "Sakura AI Japanese learning assistant",
+      "AI-powered JLPT N5–N1 learning support",
+      "Personalized assistance based on learner level",
+      "Supabase authentication and user profiles",
+      "Cloud-based learning data management",
+      "Task completion and progress tracking",
+      "Study streaks and achievement system",
       "Daily mission and next-day learning flow",
       "Kanji Master learning section",
+      "Kanji search and chapter-based learning",
       "Responsive Japanese learning interface",
       "Deployed with Vercel",
     ],
-
     github: "https://github.com/linletsandarmyint/nihongo-journey",
-
     liveDemo: "https://nihongo-journey-n2.vercel.app/",
-
     featured: true,
   },
 ];
